@@ -149,6 +149,7 @@ footer {
   text-transform: uppercase;
   -webkit-transition: all .3s;
   transition: all .3s;
+  cursor: pointer;
 }
 
 .button-main__icon {
@@ -295,6 +296,7 @@ footer {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    mix-blend-mode: darken;
   }
 }
 /*# sourceMappingURL=style.css.map */
