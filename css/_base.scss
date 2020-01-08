@@ -1,0 +1,25 @@
+body {
+  background-color: $color-white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section__header {
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+
+  &--small {
+    font-size: 1.2rem;
+    padding: 1rem;
+
+    .orange {
+      color: $color-orange;
+    }
+  }
+}
+
+footer {
+  min-height: 8rem;
+  background-color: #2a2a2a;
+}

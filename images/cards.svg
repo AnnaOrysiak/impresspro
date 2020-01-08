@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329 197" width="200" height="200">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 0L329 0L329 197L0 197Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f39323 } 
+		.shp1 { fill: #ffffff;stroke: #231f20;stroke-width: 6 } 
+		.shp2 { fill: none;stroke: #231f20;stroke-linecap:round;stroke-width: 6 } 
+		.shp3 { fill: #231f20 } 
+	</style>
+	<g id="Page 1" clip-path="url(#cp1)">
+		<path id="Path 1" class="shp0" d="M269.61 176.76L104.8 128.13C88.59 123.35 79.33 106.33 84.11 90.13L104.19 22.09C108.97 5.89 125.99 -3.37 142.19 1.41L307 50.04C323.21 54.82 332.47 71.84 327.69 88.04L307.61 156.08C302.83 172.28 285.81 181.54 269.61 176.76Z" />
+		<path id="Path 2" class="shp1" d="M205.43 194L33.6 194C16.7 194 3 180.3 3 163.41L3 92.47C3 75.58 16.7 61.88 33.6 61.88L205.43 61.88C222.33 61.88 236.02 75.58 236.02 92.47L236.02 163.41C236.02 180.3 222.33 194 205.43 194Z" />
+		<path id="Path 3" class="shp0" d="M232.52 120.34L6.32 120.34L6.32 92.47L232.52 92.47L232.52 120.34Z" />
+		<path id="Path 4" class="shp2" d="M32.19 147.62L82.86 147.62M32.19 160.09L94.16 160.09" />
+		<path id="Path 5" class="shp3" d="M272.47 156.77C291.77 156.77 291.8 126.77 272.47 126.77C253.16 126.77 253.13 156.77 272.47 156.77Z" />
+		<path id="Path 6" class="shp2" d="M287.23 58.76C287.23 58.76 324.26 63.44 307.89 95.01" />
+	</g>
+</svg>
