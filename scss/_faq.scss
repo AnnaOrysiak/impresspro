@@ -3,7 +3,7 @@
   background-color: $color-orange;
   overflow: hidden;
 
-  @media screen and (min-width: map.get($device-size, xl)) {
+  @media screen and (min-width: map-get($device-size, xl)) {
     min-height: 820px;
     max-height: 820px;
   }
@@ -101,7 +101,7 @@
 .consultant {
   display: none;
 
-  @media screen and (min-width: map.get($device-size, xl)) {
+  @media screen and (min-width: map-get($device-size, xl)) {
     display: block;
     position: absolute;
     top: 0;

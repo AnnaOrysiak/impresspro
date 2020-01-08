@@ -6,7 +6,7 @@
   text-align: center;
   cursor: pointer;
 
-  @media screen and (min-width: map.get($device-size, xl)) {
+  @media screen and (min-width: map-get($device-size, xl)) {
     margin: 2rem 1.5rem;
     flex-basis: 22%;
   }
@@ -57,13 +57,13 @@
     border-radius: 50%;
     background-color: $color-orange;
 
-    @media screen and (min-width: map.get($device-size, md)) {
+    @media screen and (min-width: map-get($device-size, md)) {
       top: 50%;
       left: calc(100% + 3.5vw);
       transform: translate(-50%, -50%);
     }
 
-    @media screen and (min-width: map.get($device-size, xl)) {
+    @media screen and (min-width: map-get($device-size, xl)) {
       top: 50%;
       left: calc(100% + 1rem);
       transform: translate(-50%, -50%);
@@ -72,11 +72,11 @@
   }
 
   &:nth-child(even)::after {
-    @media screen and (min-width: map.get($device-size, md)) {
+    @media screen and (min-width: map-get($device-size, md)) {
       display: none;
     }
 
-    @media screen and (min-width: map.get($device-size, xl)) {
+    @media screen and (min-width: map-get($device-size, xl)) {
       display: block;
     }
   }
