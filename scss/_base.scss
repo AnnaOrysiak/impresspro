@@ -21,6 +21,13 @@ body {
   }
 }
 
+.container {
+
+  @media (min-width: map-get($device-size, xl)) {
+    max-width: 70vw;
+  }
+}
+
 footer {
   min-height: 8rem;
   background-color: #2a2a2a;

@@ -47,25 +47,23 @@
   }
 
   &::after {
-    position: absolute;
-    top: calc(100% + 1rem);
-    left: 50%;
-    transform: translate(-50%, -50%);
-    content: "";
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: $color-orange;
+
 
     @media screen and (min-width: map-get($device-size, md)) {
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: $color-orange;
       top: 50%;
-      left: calc(100% + 3.5vw);
+      left: calc(100% + 3.8vw);
       transform: translate(-50%, -50%);
     }
 
     @media screen and (min-width: map-get($device-size, xl)) {
       top: 50%;
-      left: calc(100% + 1rem);
+      left: calc(100% + 1vw);
       transform: translate(-50%, -50%);
     }
 
