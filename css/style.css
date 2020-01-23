@@ -153,7 +153,7 @@ footer {
 
 .button-main__icon {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
-  padding-left: 1rem;
+  padding-left: .5rem;
   fill: #f39222;
   -webkit-transition: fill .3s;
   transition: fill .3s;
